@@ -1,0 +1,77 @@
+body{
+    display: flex;
+    justify-content: center;
+   padding-top: 40px;
+   padding-left: 150px;
+   font-family: sans-serif;
+}
+#game-info{
+    width: 500px;
+    /* height: 400px; */
+    background-color: rgb(2, 2, 41);
+    color: white;
+    border-radius: 10px;
+    display: none;
+    padding:10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#main{
+    width: 490px;
+    height: auto;
+    display: grid;
+    grid-template-columns:repeat(15,30px);
+    background-color: rgb(51, 187, 51);
+    padding: 20px;
+}
+.cell{
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: yellow;
+    font-size: 20px;
+    padding-bottom: 8px;
+    
+}
+#players{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 490px;
+    margin-top: 46px;
+    width: 50px;
+}
+.player{
+    font-size:30px;
+    margin-right: 10px;
+}
+#parent{
+    display: none;
+}
+#info{
+    visibility: hidden;
+    width: 200px;
+    height: auto;
+    margin-top: 46px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.info-child{
+    color:white;
+    border-radius: 30px;
+    width:200px ;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
